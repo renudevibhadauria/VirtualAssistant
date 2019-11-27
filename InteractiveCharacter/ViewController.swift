@@ -11,13 +11,17 @@ import SpriteKit
 
 class ViewController: UIViewController {
 
+    @IBAction func beginAction(_ sender: UIButton) {
+        
+    }
+    @IBOutlet weak var skView: SKView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        if let scene = InteractiveScene(fileNamed: "Interactive") {
+        if let scene = InteractiveScene(fileNamed: "GameScene") {
             // Configure the view.
-            let skView = view as! SKView
+            let skview = skView as SKView
             //skView.showsFPS = true
             //skView.showsNodeCount = true
             
@@ -27,7 +31,7 @@ class ViewController: UIViewController {
             /* Set the scale mode to scale to fit the window */
             //scene.scaleMode = .aspectFill
             
-            skView.presentScene(scene)
+            skview.presentScene(scene)
         }
     }
 

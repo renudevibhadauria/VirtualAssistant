@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C59E957238D3EBD00F0C2C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4C59E956238D3EBD00F0C2C2 /* GameScene.sks */; };
 		CAA20016238CEAFD0013F67D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA20015238CEAFD0013F67D /* AppDelegate.swift */; };
 		CAA20018238CEAFD0013F67D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA20017238CEAFD0013F67D /* ViewController.swift */; };
 		CAA2001B238CEAFD0013F67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA20019238CEAFD0013F67D /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C59E956238D3EBD00F0C2C2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		CAA20012238CEAFD0013F67D /* InteractiveCharacter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InteractiveCharacter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA20015238CEAFD0013F67D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAA20017238CEAFD0013F67D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		CAA20014238CEAFD0013F67D /* InteractiveCharacter */ = {
 			isa = PBXGroup;
 			children = (
+				4C59E956238D3EBD00F0C2C2 /* GameScene.sks */,
 				CAA20015238CEAFD0013F67D /* AppDelegate.swift */,
 				CAA20017238CEAFD0013F67D /* ViewController.swift */,
 				CAA20045238CF8870013F67D /* InteractiveScene.swift */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAA20044238CECA60013F67D /* Interactive.sks in Resources */,
+				4C59E957238D3EBD00F0C2C2 /* GameScene.sks in Resources */,
 				CAA20020238CEAFF0013F67D /* LaunchScreen.storyboard in Resources */,
 				CAA2001D238CEAFF0013F67D /* Assets.xcassets in Resources */,
 				CAA2001B238CEAFD0013F67D /* Main.storyboard in Resources */,
